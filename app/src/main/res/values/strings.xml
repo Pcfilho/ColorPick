@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">ColorPick</string>
+    <string name="cor_em_hexa">Cor em Hexa</string>
+    <string name="blue">Blue</string>
+    <string name="green">Green</string>
+    <string name="red">Red</string>
+    <string name="shaodre">Shaodre</string>
+    <string name="Name">The Color Picker</string>
+    <string name="copy_background_color">Copy Background Color</string>
 </resources>

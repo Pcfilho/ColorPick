@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Paulo Filho/Desktop/ProjetosMobile/ColorPick/app/src/main/res/drawable/gradient.xml" value="0.3275" />
+        <entry key="..\:/Users/Paulo Filho/Desktop/ProjetosMobile/ColorPick/app/src/main/res/drawable/ic_baseline_fingerprint_24.xml" value="0.2985" />
+        <entry key="..\:/Users/Paulo Filho/Desktop/ProjetosMobile/ColorPick/app/src/main/res/drawable/ic_baseline_fingerprint_blue_24.xml" value="0.2295" />
+        <entry key="..\:/Users/Paulo Filho/Desktop/ProjetosMobile/ColorPick/app/src/main/res/drawable/ic_baseline_fingerprint_red_24.xml" value="0.2295" />
+        <entry key="..\:/Users/Paulo Filho/Desktop/ProjetosMobile/ColorPick/app/src/main/res/drawable/round.xml" value="0.215" />
+        <entry key="..\:/Users/Paulo Filho/Desktop/ProjetosMobile/ColorPick/app/src/main/res/drawable/shape.xml" value="0.215" />
+        <entry key="..\:/Users/Paulo Filho/Desktop/ProjetosMobile/ColorPick/app/src/main/res/layout-v28/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Paulo Filho/Desktop/ProjetosMobile/ColorPick/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Paulo Filho/Desktop/ProjetosMobile/ColorPick/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.34" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
   </component>
 </project>
