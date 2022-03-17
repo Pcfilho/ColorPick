@@ -3,21 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/gradient"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient"
     tools:context=".MainActivity">
 
     <View
         android:id="@+id/ColorView"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="60dp"
         android:background="@color/black"
         android:clickable="false"
         android:contentDescription="@string/copy_background_color"
         android:focusable="true"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -26,6 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:fontFamily="@font/poppins_semibold"
         android:text="@string/cor_em_hexa"
         android:textAlignment="center"
         android:textColor="#78909C"
@@ -85,7 +86,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/poppins_extrabold"
         android:text="@string/red"
         android:textColor="@android:color/holo_red_light"
         android:textStyle="bold"
@@ -102,7 +103,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/poppins_extrabold"
         android:text="@string/green"
         android:textColor="@android:color/holo_green_light"
         android:textStyle="bold"
@@ -118,8 +119,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/poppins_extrabold"
         android:text="@string/blue"
+        android:textAlignment="viewStart"
         android:textAllCaps="false"
         android:textColor="@android:color/holo_blue_light"
         android:textStyle="bold"
@@ -129,5 +131,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/seekBarGreen"
         app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textChanger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_extrabold"
+        android:text="@string/componente_sendo_alterado"
+        android:textColor="#82B1FF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBarBlue" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

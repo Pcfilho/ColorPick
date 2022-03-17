@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity(), SeekBar.OnSeekBarChangeListener {
     private lateinit var BlueBar: SeekBar
     private lateinit var RedBar: SeekBar
     private lateinit var Text: TextView
+    private lateinit var TextChanger: TextView
     private var Green = 0
     private var Red = 0
     private var Blue = 0
@@ -31,6 +32,7 @@ class MainActivity : AppCompatActivity(), SeekBar.OnSeekBarChangeListener {
         BlueBar = findViewById(R.id.seekBarBlue)
         RedBar = findViewById(R.id.seekBarRed)
         Text = findViewById(R.id.textHexa)
+        TextChanger = findViewById(R.id.textChanger)
         GreenBar.setOnSeekBarChangeListener(this)
         RedBar.setOnSeekBarChangeListener(this)
         BlueBar.setOnSeekBarChangeListener(this)
@@ -52,11 +54,12 @@ class MainActivity : AppCompatActivity(), SeekBar.OnSeekBarChangeListener {
         Text.text = "A cor em Hexa: ${Integer.toHexString(colorId)}"
     }
 
+    @SuppressLint("SetTextI18n")
     override fun onStartTrackingTouch(p0: SeekBar?) {
         when (p0){
-            RedBar -> Toast.makeText(this, "Alterando Componente Vermelho",Toast.LENGTH_SHORT).show()
-            GreenBar -> Toast.makeText(this, "Alterando Componente Verde",Toast.LENGTH_SHORT).show()
-            BlueBar -> Toast.makeText(this, "Alterando Componente Azul",Toast.LENGTH_SHORT).show()
+            RedBar -> TextChanger.text = "Componente Sendo Alterado: Vermelho"
+            GreenBar -> TextChanger.text = "Componente Sendo Alterado: Verde"
+            BlueBar -> TextChanger.text = "Componente Sendo Alterado: Azul"
         }
     }
 
